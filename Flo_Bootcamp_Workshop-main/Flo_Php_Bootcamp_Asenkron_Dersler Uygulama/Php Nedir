@@ -1,0 +1,30 @@
+ PHP NEDIR ?
+
+Web sayfalarina yönetmek için kullanılan dil.
+Js , css ,bootstrap ile tarayici tarafli ve sunucu tarafli   (istemci) ise html ile calisan karsi tarafa gonderen dillerdir.
+
+Sunucular Windows Sunucu ve Linux Sunucu olarak 2 ye ayrilir.
+Php icin Linux Tabanli Sunucu , Docnet ise Windows Tabanli Sunucu
+Xammp sunucusu Linux Windows Macos
+Wamp Sadece Windoes icin gecerli
+Mac icin MAMP / MAMP SERVER
+
+Php icin;
+ Apache sunucusu gerekli Linux isletim sistemine gore yazilan sunucu yazilimi
+Php Derleyicisi
+
+Php Açık Kaynaklı ücretsiz dildir.
+
+
+/*Short Tag
+<?
+SSSHHSHSHSHSH
+?>
+
+
+Php de 3 Yazilim var :
+1) Sunucu Yazilimi Apache
+2) Php Derleyicisi  php.ini
+3)  Mysql - Sql Yorumlayici mysql.ini
+
+Web Sayfası Hazırlamak için önce Tasarım kısmı gelir php entegrenir kodlara.

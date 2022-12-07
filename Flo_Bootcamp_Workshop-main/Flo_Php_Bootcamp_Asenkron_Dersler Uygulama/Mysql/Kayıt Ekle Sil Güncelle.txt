@@ -1,0 +1,35 @@
+Bır tabloya Bır veya Bırden fazla kayıt eklemek ıcın
+Inset into kullanılır.
+Birden fazla kayit ekleme icin 
+
+INSERT INTO ogrenciler (id,tckimlik,adsoyad) VALUES (``,123456,`Ozcan Kara`);
+
+INSERT INTO ogrenciler (id,tckimlik,adsoyad) VALUES (` `,12345678977`,Ozcan Kara`),(` `,12345678977`,Ali A`);
+
+INSERT INTO ogrenciler  VALUES (``,123456,`Ozcan Kara`);
+-------------------------------------------------------------------------------------------------------------------------
+
+Tabloda bulunan Kayit guncelleme
+
+UPDATE ogrenciler SET  adsoyad = `ozcan` WHERE id=1;
+-------------------------------------------------------------------------------------------------------------------
+Tarih gunceleme icin where kullanilmaz kullanilirsa tumu ayni olur.
+
+UPDATE ogrenciler SET  kayittarih = `2022-01-01`;
+-----------------------------------------------------------------------------------------------
+Birden fazla alani guncelleme islemi icin
+id 3 olan kaydi guncellendi
+
+UPDATE ogrenciler SET  adsoyad=`ali kara`,kayittarih=`2022-03-16`,tckimlik=`111111111111 ` WHERE id=3;
+
+-------------------------------------------------------------------------------------------------------------
+Bir tabloda belirli  kaydi silinmesi icin Delete kullanilir
+
+DELETE FROM ogrenciler WHERE id=1;
+
+---------------------------------------------------------------------------------------------------------------
+Tum Kayitlar silinmesi icin
+
+DELETE FROM ogrenciler
+
+
