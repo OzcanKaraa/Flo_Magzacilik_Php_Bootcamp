@@ -1,5 +1,5 @@
 <h2>Araba Kiralama Bitirme Projesi<h/2>
-<h1>Hocam Admin Giris icin : Kullanici Adi : msbatal@gmail.com   Sifre:12345 ile girebilirsiniz.</h1>
+
 <br>
     <hr>
     <h3>Proje Tanıtımı</h3>
